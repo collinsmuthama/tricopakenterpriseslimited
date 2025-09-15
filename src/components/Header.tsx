@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.jpg";
 
 const Header = () => {
   const scrollToSection = (sectionId: string) => {
@@ -10,8 +11,9 @@ const Header = () => {
     <header className="fixed top-0 w-full bg-navy/95 backdrop-blur-sm z-50 border-b border-white/10">
       <div className="container mx-auto px-6 py-4">
         <nav className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-white">
-            TRICOPAK
+          <div className="flex items-center gap-3 p-4 text-xl font-bold text-white">
+            <img src={logo} alt="Tricopak Logo" className="h-10" />
+            TRICOPAK ENTERPRISES LTD
           </div>
           
           <div className="hidden md:flex items-center space-x-8">

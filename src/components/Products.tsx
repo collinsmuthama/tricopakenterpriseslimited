@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import serviettesImage from "@/assets/serviettes.jpg";
-import gumArabicImage from "@/assets/gum-arabic.jpg";
+import gumArabicImage from "@/assets/gum.webp";
+
 
 const Products = () => {
   const products = [

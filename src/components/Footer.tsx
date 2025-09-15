@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-white/20 pt-8 text-center text-white/70">
-          <p>&copy; 2024 Tricopak. All rights reserved. | Exports from Kenya to Europe</p>
+          <p>&copy; 2024 Tricopak. All rights reserved.</p>
         </div>
       </div>
     </footer>
